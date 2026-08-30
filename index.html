@@ -241,7 +241,7 @@
     <h1>I've been in the tiny chair.<br>Now I want to <span class="hl">design for it.</span></h1>
     <p class="sub">Hej. Hallå. Hi. Hullo. I'm Andrea, a finlandssvensk Product Designer and a parent who has toured nurseries across Edinburgh and Copenhagen. Ten-plus years across product design, UX and research, and a lot of curiosity about the humans on both ends of the screen.</p>
     <div class="hero-ctas">
-      <button class="btn btn-primary" id="bookBtn">Book a 20-min call</button>
+      <a class="btn btn-primary" id="bookBtn" href="https://www.andreadahlen.com/" target="_blank" rel="noopener">See my portfolio ↗</a>
       <a class="btn btn-secondary" id="cvBtn" href="Andrea-Dahlen-CV.pdf" download>Download my CV ↓</a>
     </div>
   </div>
@@ -438,7 +438,7 @@
   <div class="footer-banner">
     <h2>Ready when you are.</h2>
     <p>20 minutes is usually enough to know if this is a fit.</p>
-    <button class="btn btn-primary" id="bookBtn2">Book a 20-min call</button>
+    <a class="btn btn-primary" id="bookBtn2" href="https://www.andreadahlen.com/" target="_blank" rel="noopener">See my portfolio ↗</a>
     <div class="footer-links">
       <a href="mailto:andreadahlen@gmail.com">andreadahlen@gmail.com</a>
       <a href="https://www.andreadahlen.com" target="_blank" rel="noopener">andreadahlen.com</a>
@@ -467,8 +467,6 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => toast.classList.remove('show'), 3400);
   }
-  document.getElementById('bookBtn').addEventListener('click', () => showToast("This is a mockup — wire this button up to your real booking link."));
-  document.getElementById('bookBtn2').addEventListener('click', () => showToast("This is a mockup — wire this button up to your real booking link."));
 </script>
 
 </body>
